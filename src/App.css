@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+td #incr_ten{
+  background-color: rgb(60, 180, 0);
+  border-radius: 50%;
+  padding: 2px 5px;
+  text-align: center;
+  border: none;
+}
+.budget-container{
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end;/ */
+ 
+
+}
+.budget-container .budget-input-c{
+  margin-left: 10px;
+
+}
+.budget-container .budget-input-c span{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(247, 119, 59);
+}
+.budget-container .budget-input-c input {
+  padding: 2px 5px;
+  border-radius: 2px;
+  border: 1px solid chartreuse;
+}
+.currency-container{
+  display: flex;
+
+}
+.currency-container select{
+  margin-left: 10px;
+  padding: 5px 20px;
+  background-color: rgb(187, 241, 133);
+  border-radius: 5px;
+}
+
+.allc-container{
+}
+.allc-container form label {
+  font-size: 18px;
+  margin-left: 5px;
+} 
+.allc-container form select {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.allc-container form button {
+  margin-left: 5px;
+  border: none;
+  background-color: #61dafb;
+}
+.allc-container form span{
+  color: red;
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+.allc-container form input {
+  margin-left: 5px;
+}
